@@ -1459,7 +1459,7 @@ class Net_SFTP extends Net_SSH2 {
         if (!($this->bitmap & NET_SSH2_MASK_LOGIN)) {
             return false;
         }
-		$status = 0;
+	$status = 0;
         $remote_file = $this->_realpath($remote_file);
         if ($remote_file === false) {
             return false;
